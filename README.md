@@ -116,9 +116,9 @@ npm run test:debug
 | WF-01: Registration & Login | 5 | 2 automated | 100% executed |
 | WF-02: Product Browsing & Search | 5 | 1 automated | 100% executed |
 | WF-03: Shopping Cart Management | 5 | 2 automated | 100% executed |
-| WF-04: Checkout & Payment | 3 | Manual | 100% executed |
-| WF-05: Order History & Profile | 2 | Manual | 100% executed |
-| **TOTAL** | **20** | **5 automated** | **100% coverage** |
+| WF-04: Checkout & Payment | 3 | 2 automated | 100% executed |
+| WF-05: Order History & Profile | 2 | 2 automated | 100% executed |
+| **TOTAL** | **20** | **9 automated** | **100% coverage** |
 
 ---
 
