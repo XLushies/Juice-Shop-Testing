@@ -1,0 +1,32 @@
+{
+  "name": "juiceshop-functional-tests",
+  "version": "1.0.0",
+  "description": "Functional test automation suite for OWASP Juice Shop v19.2.1 — SoftTest Finals Project",
+  "author": "QA Automation Team (Member 1, Member 2, Member 3, Member 4)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "test:debug": "npx playwright test --debug",
+    "test:registration": "npx playwright test tests/01_registration_login.spec.js",
+    "test:search-cart": "npx playwright test tests/02_search_and_cart.spec.js",
+    "report": "npx playwright show-report",
+    "install:browsers": "npx playwright install chromium"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "juice-shop",
+    "owasp",
+    "functional-testing",
+    "university-project"
+  ]
+}
